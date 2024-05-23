@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite</title>
+    <link rel="stylesheet" href="https://www.x3dom.org/download/x3dom.css">
+    <script src="https://www.x3dom.org/download/x3dom.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .x3d-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        x3d {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Brand Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="coke.html">Coke</a></li>
+                    <li><a href="fanta.html">Fanta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text-center my-5">
+            <h1>Sprite</h1>
+            <div class="x3d-container">
+                <x3d width="500px" height="400px">
+                    <scene>
+                        <inline nameSpaceName="model" mapDEFToID="true" url="models/sprite.x3d"></inline>
+                    </scene>
+                </x3d>
+            </div>
+            <div id="description" class="mt-3">
+                <h2>About Sprite</h2>
+                <p>
+                    Sprite is a refreshing, lemon-lime flavored soft drink that has been a favorite among consumers since it was first introduced by The Coca-Cola Company in 1961. Known for its crisp, clean taste and invigorating effervescence, Sprite is the perfect beverage for quenching thirst and revitalizing the senses.
+                </p>
+                <p>
+                    The origin of Sprite can be traced back to its predecessor, a German soda called Fanta Klare Zitrone, which was developed in the 1950s. Recognizing the potential for a lemon-lime soda in the global market, The Coca-Cola Company introduced Sprite, which quickly gained popularity and became a staple in the soft drink industry.
+                </p>
+                <p>
+                    Over the years, Sprite has built a strong brand identity centered around its refreshing taste and youthful, energetic image. The brand's iconic green and blue packaging, along with its memorable advertising campaigns, have made Sprite instantly recognizable and beloved by fans around the world.
+                </p>
+                <p>
+                    In addition to its classic lemon-lime flavor, Sprite has expanded its product line to include various exciting flavors and limited-edition offerings. These innovations keep the brand fresh and relevant, appealing to both long-time fans and new consumers alike.
+                </p>
+                <p>
+                    Sprite is also committed to promoting healthy and active lifestyles. The brand supports various sports and cultural events, encouraging people to stay active and hydrated. Sprite's initiatives extend beyond refreshment, aiming to inspire and engage communities through meaningful and impactful programs.
+                </p>
+                <p>
+                    Sustainability is another key focus for Sprite. The brand actively works to reduce its environmental footprint by promoting recycling and using more sustainable packaging materials. These efforts are part of Sprite's broader commitment to creating a positive impact on the planet.
+                </p>
+                <p>
+                    Whether enjoyed on its own or as a mixer in a variety of beverages, Sprite's crisp and refreshing taste continues to delight and invigorate. As a trusted and iconic brand, Sprite remains a top choice for those seeking a revitalizing and delicious soft drink experience.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 My Coca Cola Brand</p>
+            <p><a href="https://github.com/infeinite/3dapp-assignment" class="text-white">GitHub Repository</a></p>
+        </div>
+    </footer>
+</body>
+</html>

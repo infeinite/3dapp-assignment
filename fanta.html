@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanta</title>
+    <link rel="stylesheet" href="https://www.x3dom.org/download/x3dom.css">
+    <script src="https://www.x3dom.org/download/x3dom.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .x3d-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        x3d {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Brand Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="coke.html">Coke</a></li>
+                    <li><a href="sprite.html">Sprite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text-center my-5">
+            <h1>Fanta</h1>
+            <div class="x3d-container">
+                <x3d width="500px" height="400px">
+                    <scene>
+                        <inline nameSpaceName="model" mapDEFToID="true" url="models/fanta.x3d"></inline>
+                    </scene>
+                </x3d>
+            </div>
+            <div id="description" class="mt-3">
+                <h2>About Fanta</h2>
+                <p>
+                    Fanta is a vibrant, fruit-flavored carbonated soft drink enjoyed by people of all ages around the world. Originally created in Germany in the 1940s, Fanta was developed as a result of ingredient shortages during World War II. Since then, it has become one of the most popular and beloved soft drink brands globally.
+                </p>
+                <p>
+                    Known for its bold and refreshing taste, Fanta comes in a variety of fruit flavors, with orange being the most iconic and widely recognized. Each flavor is crafted to deliver a burst of fruity goodness that is both delicious and invigorating.
+                </p>
+                <p>
+                    Fanta's playful and fun personality is reflected in its vibrant packaging and energetic marketing campaigns. The brand encourages consumers to embrace their creativity and enjoy life's colorful moments. Whether it's a family picnic, a party with friends, or simply a moment of relaxation, Fanta adds a splash of excitement to any occasion.
+                </p>
+                <p>
+                    In addition to its great taste, Fanta is committed to sustainability and environmental responsibility. The brand actively works to reduce its environmental footprint by promoting recycling, reducing plastic waste, and supporting sustainable sourcing practices. Fanta's efforts in these areas demonstrate its dedication to creating a better, greener future for all.
+                </p>
+                <p>
+                    Fanta also values community engagement and strives to make a positive impact on society. Through various initiatives and partnerships, the brand supports local communities and promotes social causes, helping to build a more inclusive and supportive world.
+                </p>
+                <p>
+                    Whether you prefer the classic orange flavor or one of the many other delicious options, Fanta is the perfect choice for those who love a fruity, refreshing beverage. With its rich history and commitment to quality, Fanta continues to bring joy and refreshment to millions of fans worldwide.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 My Coca Cola Brand</p>
+            <p><a href="https://github.com/infeinite/3dapp-assignment" class="text-white">GitHub Repository</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca Cola Original Taste</title>
+    <link rel="stylesheet" href="https://www.x3dom.org/download/x3dom.css">
+    <script src="https://www.x3dom.org/download/x3dom.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .x3d-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        x3d {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Brand Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="fanta.html">Fanta</a></li>
+                    <li><a href="sprite.html">Sprite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text-center my-5">
+            <h1>Coca Cola Original Taste</h1>
+            <div class="x3d-container">
+                <x3d width="500px" height="400px">
+                    <scene>
+                        <inline nameSpaceName="model" mapDEFToID="true" url="models/coke.x3d"></inline>
+                    </scene>
+                </x3d>
+            </div>
+            <div id="description" class="mt-3">
+                <h2>About Coca Cola Original Taste</h2>
+                <p>
+                    Coca Cola Original Taste is the world's favorite soft drink, enjoyed by millions of people across the globe every day. Known for its unique, refreshing flavor, Coca Cola has been a beloved beverage since its creation in 1886.
+                </p>
+                <p>
+                    The original recipe, developed by Dr. John S. Pemberton, remains a closely guarded secret to this day. The perfect blend of sweet, citrus, and spice flavors has made Coca Cola an iconic drink that stands the test of time.
+                </p>
+                <p>
+                    Over the years, Coca Cola has become more than just a beverage; it has become a symbol of joy, celebration, and togetherness. From the classic red can to the timeless logo, everything about Coca Cola is instantly recognizable and cherished by fans worldwide.
+                </p>
+                <p>
+                    Coca Cola's commitment to quality and innovation has kept it at the forefront of the beverage industry. The brand continues to evolve, introducing new flavors and products to meet the changing tastes and preferences of consumers. Despite these innovations, Coca Cola Original Taste remains the flagship product, loved for its consistency and familiarity.
+                </p>
+                <p>
+                    Beyond its delicious taste, Coca Cola is also dedicated to making a positive impact on the world. The brand supports various initiatives focused on sustainability, community engagement, and environmental protection. From reducing its carbon footprint to promoting recycling and water stewardship, Coca Cola strives to make a difference.
+                </p>
+                <p>
+                    Enjoyed during meals, celebrations, and moments of relaxation, Coca Cola Original Taste is more than just a drink; it's a part of life's most memorable moments. Whether you prefer it ice-cold from the fridge or in a glass with a slice of lemon, Coca Cola Original Taste is always a refreshing choice.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 My Coca Cola Brand</p>
+            <p><a href="https://github.com/infeinite/3dapp-assignment" class="text-white">GitHub Repository</a></p>
+        </div>
+    </footer>
+</body>
+</html>
