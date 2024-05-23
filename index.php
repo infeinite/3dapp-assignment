@@ -108,7 +108,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 My Coca Cola Brand. All rights reserved.</p>
+            <p>&copy; 2024 My Coca Cola All rights reserved.</p>
             <p><a href="https://github.com/infeinite/3dapp-assignment" class="text-white">GitHub Repository</a></p>
         </div>
     </footer>
